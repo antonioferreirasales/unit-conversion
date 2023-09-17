@@ -20,11 +20,13 @@ h1, h2, h3, h4 {
 
 #main-title {
   padding: 2.6rem 0 3.7rem 0;
+  font-weight: 800;
+  font-size: 1.75rem;
 }
 
 #unit-input {
   border: 3px solid #FFFFFF;
-  border-radius: .3125rem;
+  border-radius: 0.3125rem;
   outline: none;
   color: #FFFFFF;
   font-family: inherit;
@@ -36,7 +38,40 @@ h1, h2, h3, h4 {
   padding: 0;
 }
 
+#convert-bttn {
+  margin-top: 1.67rem;
+  margin-bottom: 2.12rem;
+  background-color: #FFFFFF;
+  border: 1px solid #3D3D3D;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 0.56rem 1.72rem;
+  cursor: pointer;
+}
+
 #container {
   background-color: #F4F4F4;
-  color: #353535;;
+  color: #353535;
+  padding-top: 2.25rem;
+}
+
+.conversion {
+  background-color: #FFFFFF;
+  color: #353535;
+  padding-top: 1.94rem;
+  padding-bottom: 1.16rem;
+  margin: 0 1.56rem 1.46rem 1.56rem;
+}
+
+.conversion h2{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #5A537B;
+}
+
+.container p {
+  font-size: 0.875rem;
+  color: #353535;
 }
